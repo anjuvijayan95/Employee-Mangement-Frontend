@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    transition: .2s linear;
+    overflow-x: hidden;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 15rem auto;
+    gap: 1rem;
+    /* height: 100vh; */
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(238, 130, 238,.2); */
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAl48fVAHfAG5VHaxaPxa2kXp77HIk1Tmpprlmnyzf7qq-GgY_8swq2r0INOWIlN47t_Q&usqp=CAU'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    gap: 3rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.side>.logo>img{
+    width: 5rem;
+}
+
+.content{
+    background-image:url('http://i.ytimg.com/vi/v1SabYdIlZI/maxresdefault.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cardwrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.bar{
+    background-color: rgba(238, 130, 238,.2);
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0;
+    border-radius: 2rem;
+}
+
+.add{
+    padding: .5rem;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.add>span{
+    text-decoration: none;
+}
+
+.employee{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+
+}
+
+.employee>h4,.department>h4{
+    background-image: linear-gradient(to right,rgb(249, 105, 73) , rgb(255, 0, 136) , rgb(0, 255, 242));
+    padding: .5rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.department{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+
+}
+
+.employee>h4,.department>h4{
+    cursor: pointer;
+}
+
+.employee>h4:hover,.department>h4:hover{
+    transition: .5s linear;
+    letter-spacing: .1rem;
+    text-decoration: underline;
+}
+
+.card{
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.icon{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgba(135, 206, 235,.5);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.i{
+    padding: .5rem;
+    color: black;
+    margin-bottom: 0;
+    text-align: center;
+    background-color:rgba(255, 255, 255,.9) ;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i:hover{
+    background-color: rgba(135, 206, 235,.5);
+    padding: .5rem;
+    border-radius: .5rem;
+    color: black;
+    cursor: pointer;
+}
+
+.card>.image>img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    align-self: center;
+    /* border: 2px soild rgb(135, 206, 235); */
+}
+
+.image{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.desg{
+    text-align: center;
+    font-size: 15px;
+}
+
+.desg>:nth-of-type(1){
+    font-weight: bold;
+}
+
+.desg>:nth-of-type(2){
+font-weight: lighter;    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+    background-color:rgba(255, 255, 255,.9);
+    width: 100%;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.salary,.age,.mail,.mobile{
+    display: flex;
+    justify-content: flex-start;
+    gap: .2rem;
+}
